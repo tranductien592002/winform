@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApp1
+namespace WindowsFormsApp2
 {
     public partial class Form1 : Form
     {
@@ -17,11 +17,9 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
 
-        private void btl_zo_Click(object sender, EventArgs e)
+        private void btl_Dn_Click(object sender, EventArgs e)
         {
-            
             GUI.Form1 form1 = new GUI.Form1();
-            
             form1.ShowDialog();
         }
     }

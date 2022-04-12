@@ -1,5 +1,5 @@
 ﻿
-namespace WindowsFormsApp1
+namespace WindowsFormsApp2
 {
     partial class Form1
     {
@@ -30,37 +30,39 @@ namespace WindowsFormsApp1
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.btl_zo = new System.Windows.Forms.Button();
+            this.btl_Dn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(191, 45);
+            this.label1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(181, 29);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(288, 29);
+            this.label1.Size = new System.Drawing.Size(356, 25);
             this.label1.TabIndex = 0;
-            this.label1.Text = "CHương Trình Đầu Tiên";
+            this.label1.Text = "Trường Đại Học Công Nghệ Đông Á";
             // 
-            // btl_zo
+            // btl_Dn
             // 
-            this.btl_zo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btl_zo.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.btl_zo.Location = new System.Drawing.Point(289, 127);
-            this.btl_zo.Name = "btl_zo";
-            this.btl_zo.Size = new System.Drawing.Size(94, 65);
-            this.btl_zo.TabIndex = 1;
-            this.btl_zo.Text = "Zô-->>";
-            this.btl_zo.UseVisualStyleBackColor = true;
-            this.btl_zo.Click += new System.EventHandler(this.btl_zo_Click);
+            this.btl_Dn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btl_Dn.ForeColor = System.Drawing.Color.Red;
+            this.btl_Dn.Location = new System.Drawing.Point(278, 101);
+            this.btl_Dn.Name = "btl_Dn";
+            this.btl_Dn.Size = new System.Drawing.Size(139, 48);
+            this.btl_Dn.TabIndex = 1;
+            this.btl_Dn.Text = "ZÔ-->>\r\n";
+            this.btl_Dn.UseVisualStyleBackColor = true;
+            this.btl_Dn.Click += new System.EventHandler(this.btl_Dn_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btl_zo);
+            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.ClientSize = new System.Drawing.Size(733, 276);
+            this.Controls.Add(this.btl_Dn);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -72,7 +74,7 @@ namespace WindowsFormsApp1
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btl_zo;
+        private System.Windows.Forms.Button btl_Dn;
     }
 }
 
